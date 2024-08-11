@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: lightgreen;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    position: relative; /* Add position relative */
+    top: 26px; /* Move 2 pixels down */
+    right: -33px; /* Move 2 pixels right */
+}
+
+
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #359381;
+    color: #fff;
+}
+
+
+.login-signup-btn {
+    background-color: #359381;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.login-signup-btn:hover {
+    background-color: #2a7a6e;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 7em;
+    color: #fff45b;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: -48px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    background: #003329; /* Keep the background color */
+    padding: 25px 100px; /* Increase padding to shift the content down */
+    position: relative; /* Keep the position relative */
+    margin-top: 75px; /* Add margin-top to shift the section down */
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}

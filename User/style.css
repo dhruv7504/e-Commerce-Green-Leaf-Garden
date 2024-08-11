@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2599cf, #35d43a, #388E3C); /* Gradient from blue to green */
+  }
+  
+  header {
+    background-color: transparent; /* Make the header transparent to show the gradient */
+    color: #f2f2f2;
+    padding: 30px; /* Increased padding */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 25px;
+    font-size: 48px; /* Increased font size */
+  }
+  
+  header img {
+    max-height: 110px; /* Increased max height */
+    margin-left: 20px; /* Increased gap between h1 and img */
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px; /* Increase margin-bottom to increase the gap between the boxes */
+    margin-right: 20px; /* Optional: Increase margin-right to add horizontal gap */
+    width: calc(45% - 20px); /* Adjusted width to accommodate for the increased margin-right */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add margin bottom to create space between rows */
+  }
+  
+  .container-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    width: 75%; /* Adjust width to accommodate space between buttons */
+    max-width: 550px; /* Set maximum width to ensure buttons don't expand too much */
+  }
+  
+  .container-button:focus {
+    outline: none;
+  }
+  
+  .container-button .container {
+    border: 12px solid #ccc;
+    border-radius: 70px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 450px;
+  }
+  
+  .container-button .container:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .container h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
